@@ -22,6 +22,6 @@ Router.route('/contact', function() {
 
 
 Router.route('/connect', function() {
-    this.render('message');
+    this.render('messages');
     this.render('PostFooter', {to: 'footer'});
 });

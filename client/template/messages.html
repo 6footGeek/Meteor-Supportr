@@ -1,0 +1,15 @@
+<template name="messages">
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+                <h2 class="title text-center">Connect</h2> 
+
+                {{#each messages}} 
+
+                {{> message}}
+
+                {{/each}}
+            </div>
+        </div>
+    </section>
+</template>

@@ -182,6 +182,7 @@ pre code {
 /* ======= Promo Section ======= */
 .promo {
   background: #17baef;
+ /* background-image: url(/images/bokeh_car_lights_bg.jpg);*/
   color: #fff;
   padding-top: 150px;
 }
@@ -619,8 +620,8 @@ pre code {
 
 /* ======= message Section ======= */
 .message {
-  padding: 80px 0;
-  background: #17baef;
+  padding: 0px 0;
+  background: #fff;
   color: #fff;
 }
 .message .message-inner {
