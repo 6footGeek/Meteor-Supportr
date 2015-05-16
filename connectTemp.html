@@ -1,0 +1,38 @@
+<template name="connectTemp">
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+                <h2 class="title text-center">Ask?</h2>
+                <form class="question">
+                    <input type="text" name="text" placeholder="Type to ask a question" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+                <h2 class="title text-center">Connect</h2> {{#each questions}} {{> question}} {{/each}}
+            </div>
+        </div>
+    </section>
+</template>
+<Template name="question">
+    <section id="message" class="message section has-pattern">
+        <div class="author-message">
+            <div class="profile">
+                <img class="img-responsive" src="images/avatar.png" alt="" />
+            </div>
+            <!--//profile-->
+            <div class="speech-bubble">
+                <p>{{text}}</p>
+                <div class="source">
+                    <span class="name"><a href="https://twitter.com/6footgeek" target="_blank">Andy</a></span>
+                    <br />
+                    {{createdAt}}
+                    <span class="title">Founder</span>
+                </div>
+            </div>
+        </div>
+    </section>}}
+</template>
